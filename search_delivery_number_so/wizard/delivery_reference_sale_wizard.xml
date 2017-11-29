@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="delivery_refrence_sale_form" model="ir.ui.view">
+            <field name="name">delivery.reference.sale.form</field>
+            <field name="model">delivery.reference.sale</field>
+            <field name="arch" type="xml">
+                <form>
+               		<h3>Please Click confirm button for Search Delivery Reference Number for existed Sale Order</h3>
+                    <footer>
+                        <button string='Reference Number So' name="add_delivery_refrence_in_so" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-default" special="cancel"/>
+                    </footer>
+               </form>
+            </field>
+        </record>
+
+        <record id="action_delivery_refrence_so" model="ir.actions.act_window">
+            <field name="name">Search Delivery Reference Number</field>
+            <field name="res_model">delivery.reference.sale</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+
+        <menuitem name="Delivery Number Existed So"
+            id="menu_delivery_reference_search_so"
+            groups="sales_team.group_sale_manager"
+            parent="sales_team.menu_sale_config"
+            action="action_delivery_refrence_so"/>
+</data>
+</openerp>
