@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, _
+from openerp import api, fields, models, _
 
 class stock_picking(models.Model):
     _inherit = 'stock.picking'

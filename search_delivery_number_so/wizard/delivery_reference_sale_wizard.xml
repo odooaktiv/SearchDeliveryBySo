@@ -17,7 +17,7 @@
         </record>
 
         <record id="action_delivery_refrence_so" model="ir.actions.act_window">
-            <field name="name">Search Delivery Reference Number</field>
+            <field name="name">Search Delivery Reference Number for existed Sale Order</field>
             <field name="res_model">delivery.reference.sale</field>
             <field name="view_type">form</field>
             <field name="view_mode">form</field>
@@ -25,10 +25,10 @@
         </record>
 
 
-        <menuitem name="Delivery Number Existed So"
+        <menuitem name="Delivery Reference in exist So"
             id="menu_delivery_reference_search_so"
-            groups="sales_team.group_sale_manager"
-            parent="sales_team.menu_sale_config"
+            groups="base.group_configuration"
+            parent="base.menu_sale_config"
             action="action_delivery_refrence_so"/>
 </data>
 </openerp>

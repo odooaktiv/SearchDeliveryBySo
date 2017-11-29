@@ -1,4 +1,4 @@
-Open ERP System :- Odoo 10 Community for master branch
+Open ERP System :- Odoo 9 Community
 
 Installation 
 ============
@@ -9,6 +9,5 @@ Usage
 =====
 1. In sale order tree view Search, group by and filter using delivery reference number.
 2. For already Existed confirm sale order make wizard and run python script and assign Delivery number.  
-
 
 
