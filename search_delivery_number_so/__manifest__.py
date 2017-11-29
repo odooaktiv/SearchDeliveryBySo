@@ -1,7 +1,7 @@
 {
     'name': 'Search Delivery Reference Number in SO',
     'version': '1.0',
-    'author': 'Aktiv Software Pvt. Ltd.',
+    'author': 'Aktiv Software',
     'website': 'http://www.aktivsoftware.com',
     'summary': 'Delivery Reference number search , group by , filter in sale order',
     'category': 'Sale',
