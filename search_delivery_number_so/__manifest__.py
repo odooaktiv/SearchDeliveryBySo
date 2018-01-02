@@ -16,7 +16,8 @@
         For already existed so creating wizard and assign delivery number.
         
     """,
-    'images': [],
+
+    'images':  ['static/description/banner.jpg'],
     'auto_install': False,
     'installable': True,
 }
