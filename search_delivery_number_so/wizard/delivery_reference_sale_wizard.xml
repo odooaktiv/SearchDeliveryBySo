@@ -7,7 +7,7 @@
             <field name="model">delivery.reference.sale</field>
             <field name="arch" type="xml">
                 <form>
-               		<h3>Please Click confirm button for Search Delivery Reference Number for existed Sale Order</h3>
+                    <h3>Please Click Reference Number So button for assigning delivery number to existed Sale Order</h3>
                     <footer>
                         <button string='Reference Number So' name="add_delivery_refrence_in_so" type="object" class="btn-primary"/>
                         <button string="Cancel" class="btn-default" special="cancel"/>
