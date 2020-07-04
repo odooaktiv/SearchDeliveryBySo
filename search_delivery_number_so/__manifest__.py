@@ -5,7 +5,7 @@
     'website': 'http://www.aktivsoftware.com',
     'summary': 'Delivery Reference number search , group by , filter in sale\
      order',
-    'category': 'Sale',
+    'category': 'Sales',
     'license': 'AGPL-3',
     'depends': ['stock', 'sale'],
     'data': [
